@@ -1,0 +1,57 @@
+@media screen and (min-width: 767px) and (max-width:1024px) {
+
+    .container-2{
+        width:100%;
+        height:592px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   
+        .arrowLeft{
+            display: none;
+        }
+        
+        .arrowRight{
+            display: none;
+        }
+    
+        .text{
+            line-height: 0px;
+            width:676px;
+            height: 185.51px;
+            margin-top: -158px;
+            
+            .line1{
+                font-size: 58.81px;
+                font-weight: 200;
+                margin-left: 129px;
+                
+            }
+            .line2{
+                font-size:71.77px;
+                margin-left: 65px;
+            }
+            .line3{
+                font-size: 18.94px;
+                font-weight: 200;
+                width:676px;
+                display:absolute;
+                span{
+                    display: relative;
+                    padding-left:575px;
+                }
+            }
+            .button{
+                width: 144px;
+                height:44px;
+                margin-left: 260px;
+                margin-top: 38px;
+            }
+            button{
+                font-size: 13px;
+                width:138px;
+                height:38px;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@media screen and (min-width: 767px) and (max-width:1024px) {
+    .container-1{
+        height: 108.92px;
+        flex-direction: row;
+        justify-content: space-between;
+    
+        .logo{
+            padding-top: 27px;
+            padding-left: 25px;
+
+        }
+        .navbar{
+            display: none;
+        }
+        .menuButton{
+           align-self: center;
+           padding-right: 27px;
+        }
+    }
+    
+    
+}

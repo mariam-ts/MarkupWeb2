@@ -1,0 +1,107 @@
+@import '/./styles/palette';
+.container-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 816px;
+  
+    .main{
+        width:1188px;
+        height:579.25px;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        row-gap: 97px;
+        font-family: "Raleway";
+        font-size:14px;
+
+        .header{
+            grid-column: span 2;
+            align-self: center;
+            text-align: center;
+            font-family: "Raleway";
+            font-weight: 600;
+            color:#323232;
+            font-size: 31px;
+            p{
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            span{
+                color: $hover;
+            }
+
+        }
+        .monitor{
+            .backgroundMonitor{
+                width:100%;
+                height:263.03px;
+               position: absolute;
+               margin-left: -489.03px;
+               margin-top: 20px;
+            }
+        }
+        .sidebar{
+            width:586.5px;
+            line-height: 22px;
+            .title{
+                margin-top: 0px;
+                font-size: 31px;
+                font-weight: 600;
+                font-family: "Raleway";
+            }
+            hr{
+                display: none;
+            }
+            .features{
+                margin-top: 50px;
+                display: grid;
+                grid-template-columns: 275.5px 275.5px;
+                width: 586.5px;
+                justify-content: space-between;
+                row-gap: 20px;
+                
+                .feat{
+                    display: grid;
+                    grid-template-columns: 63px 185px;
+                    justify-content: space-between;
+
+                    .title{
+                        font-size:18px;
+                        font-weight: bold;
+                        margin-top: 0px;
+                    }
+                    p{
+                        span{
+                            display: none;
+                        }
+                    }
+                }
+                  
+                    .points{
+                        width:63px;
+                        height:63px;
+                        border-radius: 50%;
+                        color:$white;
+                        background-color: $points;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        grid-row: span 2;
+
+                        i{
+                            display: none;
+                        }
+
+                    }
+                
+            }
+            .readmore{
+                display: none;
+            }
+        }
+
+    }
+}

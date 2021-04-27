@@ -1,0 +1,51 @@
+@media screen and (min-width:1600px){
+
+    .container-2{
+        width:100%;
+        height:760px;
+    
+        .arrowLeft{
+            margin-top: -112px;
+            padding-left: 39px;
+        }
+        
+        .arrowRight{
+            margin-top: -112px;
+            padding-right: 39px;
+        }
+    
+        .text{
+            line-height: 0px;
+            width:730.7px;
+            height: 274px;
+            margin-top: -58px;
+            
+            .line1{
+                font-size: 62px;
+                font-weight: 200;
+                margin-left: 150px;
+                
+            }
+            .line2{
+                font-size:74px;
+                margin-left: 89px;
+            }
+            .line3{
+                font-size: 20px;
+                font-weight: 200;
+                
+            }
+            .button{
+                width: 144px;
+                height:44px;
+                margin-left: 305px;
+                margin-top: 38px;
+            }
+            button{
+                font-size: 13px;
+                width:138px;
+                height:38px;
+            }
+        }
+    }
+}

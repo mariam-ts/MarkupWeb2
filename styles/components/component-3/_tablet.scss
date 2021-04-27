@@ -1,0 +1,116 @@
+@media screen and (min-width: 767px) and (max-width:1024px) {
+
+    .container-3{
+        height: 1150px;
+      
+        .main{
+            width:718px;
+            height:579.25px;
+            row-gap: 88px;
+            font-size:14px;
+            grid-template-columns: 718px;
+            margin-top: -400px;
+
+    
+            .header{
+                font-size: 25px;
+            }
+            .monitor{
+                width:718px;
+                height:421px;
+                grid-row: 2;
+                grid-column: 1;
+                margin-top: -45px;
+
+                .computer{
+                    display: none;
+                }
+                .backgroundMonitor{
+                    position: relative;
+                    margin: 0;
+                    width:718px;
+                    height:421px;
+                }
+
+            }
+            .sidebar{
+                hr{
+                    display: block;
+                }
+                width:718px;
+                line-height: 22px;
+                grid-row: 3;
+                margin-top: -60px;
+                .title{
+                    margin-top: 0px;
+                    font-size: 25px;
+                }
+                .features{
+                    margin-left : 68px;
+                    grid-template-columns: 718px;
+                    width: 586.5px;
+                    row-gap: 7px;
+                    justify-content: center;
+
+
+                    .feature4{
+                        display: none;
+                    }
+                    
+                    .feat{
+                        justify-content: start;
+                        grid-template-columns: 20px 544.96px;
+                        column-gap: 20px;
+    
+                        .title{
+                            font-size:18px;
+                            font-weight: bold;
+                            margin-top: 0px;
+                            display: none;
+                        }
+                        p{
+                            margin-top: 0px;
+                            span{
+                                display: inline;
+                            }
+                        }
+                    }
+                    div{
+                        width:544.96px
+                    }
+                      
+                        .points{
+                            width:16px;
+                            height:16px;
+                            background-color:#3AB6B2;
+                            img{
+                                display: none;
+                            }
+                            i{
+                                display: inline-block;
+                                font-size: 10px;
+                                color:white;
+                            }
+    
+                        }
+                    
+                }
+                .readmore{
+                    display: inline-block;
+                    background-color: #3AB6B2;
+                    font-family: "Raleway";
+                    height:40px;
+                    width:140px;
+                    border:none;
+                    color:white;
+                    letter-spacing: 1px;
+                    font-weight: bold;
+                    margin-top: 31px;
+                }
+
+            }
+
+        }
+    }
+
+}

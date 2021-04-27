@@ -1,0 +1,24 @@
+@media screen and (min-width: 1280px) and (max-width:1600px) {
+    .container-1{
+        height: 100px;
+        
+        .logo{
+            padding-top: 27px;
+            padding-left: 375px;
+        }
+    
+        .navbar{
+            margin-left:40px;
+            ul{
+                width: 740px;
+                height:19px;
+                
+            }
+        }
+        .menuButton{
+            display: none;
+        }
+    }
+    
+    
+}

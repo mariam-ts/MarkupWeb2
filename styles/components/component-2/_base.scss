@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+html, body{
+    margin:0px;
+}
+@import '/./styles/palette';
+.container-2{
+    width:100%;
+    background-color: #292929;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    background-image: url("https://wallpapercave.com/wp/wp4778489.jpg");
+    background-size: 100% 100%;
+
+     .line1{
+        font-family: "Raleway";
+        font-size: 62px;
+        font-weight: 200;
+        margin-left: 150px;
+            
+    }
+        .line2{
+            font-family: "Montserrat";
+            font-size:74px;
+            margin-left: 89px;
+            font-weight: bold;
+        }
+        .line3{
+            font-family: "Raleway";
+            font-size: 20px;
+            font-weight: 200;
+            
+        }
+        .button{
+            background-color: $hover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            font-family: "Raleway";
+            font-weight: bold;
+            background-color: $hover;
+            color: white;
+            border: 1px solid #FFFFFF;
+            border-radius: 0px;
+        }
+    }

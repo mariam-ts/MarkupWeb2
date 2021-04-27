@@ -1,0 +1,84 @@
+.container-4{
+    height:783px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway";
+
+    .header{
+        color:white;
+        font-size:31px;
+    }
+
+    .hexagons{
+
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width:1173px;
+        justify-content: space-between;
+        p{
+            color:white;
+            font-size: 14px;
+
+        }
+        .title{
+            font-size:20px;
+            font-weight: bold;
+            color:#3AB6B2;
+
+        }
+        .text{
+            width:295px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align-last: center;
+        }
+        .hexagon1{
+            width:295px;
+            height:140.1px;
+            
+            .figure{
+                margin-left: 80px;
+                
+            }
+            .icon{
+                margin-left: -75px;
+                position: absolute;
+                margin-top: 55px;
+                
+            }
+        }
+
+        .hexagon2{
+
+            .figure{
+                margin-left: 80px;
+                
+            }
+            .icon{
+                margin-left: -75px;
+                position: absolute;
+                margin-top: 60px;
+                
+            }
+        }
+
+        .hexagon3{
+
+            .figure{
+                margin-left: 80px;
+                
+            }
+            .icon{
+                margin-left: -75px;
+                position: absolute;
+                margin-top: 58px;
+                
+            }
+        }
+    }
+     
+    
+}
